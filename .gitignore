@@ -1,0 +1,55 @@
+# Dependencias
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# Build / producción
+dist/
+build/
+out/
+
+# Caché
+.cache/
+.tmp/
+.tmp/
+
+# Coverage (tests)
+coverage/
+
+# Archivos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+.next/
+
+# Nuxt
+.nuxt/
+
+# React Native
+.expo/
+.expo-shared/
+
+# Archivos de lock (opcional, NO borrar si el profe los pide)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
